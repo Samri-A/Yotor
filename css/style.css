@@ -19,7 +19,6 @@ h2 , h3 , p {
 .container{
     
     width: 100vw;
-    height: 100%;
 }
 .header{
     padding: 30px;
@@ -130,8 +129,7 @@ height: 25rem;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-left: 5rem;
-    padding-right: 3rem;
+    padding: 2rem 5rem 5rem 3rem ;
 }
 
 .signup-button{
@@ -156,6 +154,7 @@ height: 25rem;
     display: flex;
     flex-direction: column;
     background: linear-gradient(180deg , rgba(0, 5, 34, 1) , rgba(0, 0, 0, 1) , rgba(0, 20, 136, 1));
+    padding: 3rem 0;
 }
 .partner-logo{
     width:8rem;
@@ -165,4 +164,186 @@ height: 25rem;
     flex-direction: row;
     justify-content: space-evenly;
     margin: 10px 0;
+    padding: 1rem;
+}
+
+.course_card{
+    background: linear-gradient(180deg, rgba(255, 219, 142, 0.7) 16.79%, rgba(0, 0, 0, 0.7) 116.79%);
+    border: 0.15rem solid;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    border-color: #FFE78E;
+    border-bottom-color: rgba(0, 0, 0, 0.52);
+    flex-shrink: 0;
+    position: relative;
+    transition: transform 0.3s ease, z-index 0.3s ease;
+
+}
+
+.course_card:hover {
+    transform: scale(1.05) translateY(-1rem);
+    z-index: 10;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.3);
+}
+.courses{
+    color: #ffffff;
+    padding-right: 3rem;
+}
+
+.course_img{
+    width: 17vw;
+    height:15rem ;
+    border-radius: 15px;
+}
+.course_title{
+    font-family: Poppins;
+    font-weight: 900;
+    font-style: Black;
+    font-size: 24px;
+
+}
+.course_description{
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+
+}
+
+
+
+.all_course_btn{
+    background-color: transparent;
+    all: unset;
+    border-radius: 30px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    border-color: #ffffff;
+    border: 1px solid;
+    width: 8rem;
+    height: 2.5rem;
+    margin: 1rem;
+    margin-left: auto;
+}
+.courses{
+    display: flex;
+    flex-direction: column;
+}
+.course_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem;
+}
+.circle_course_dec{
+    width: 4vw;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: white;
+    margin-top: 12rem;
+}
+
+.enroll_text{
+    font-family: Poppins;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    cursor: pointer;
+
+    
+}
+.enroll{
+    width: 8rem;
+    margin-left: auto;
+    margin-top: -2rem;
+
+}
+
+.course_detail{
+    margin: 1rem;
+}
+
+a{
+    text-decoration: underline;
+    text-decoration-color: #ffffff;
+}
+.course_stat{
+    display: flex;
+    flex-direction: row;
+}
+
+.enrolled_courses{
+    border: 2px solid rgba(255, 200, 0, 1) ;
+    border-radius: 2rem;
+    margin: 0.5rem 1rem;
+    
+}
+.enrolled_students{
+    color : rgba(255, 200, 0, 1);
+    font-family: Poppins;
+    font-weight: 700;
+    font-style:normal;
+    margin: 0.2rem;
+
+}
+.course_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+
+.left1  {
+    margin-left: 0;
+    z-index: 1; 
+    width: 15vw; 
+    height: 28rem; 
+    filter: blur(1px);       
+    opacity: 0.8; 
+}
+.left2  { 
+    margin-left: vw; 
+    z-index: 4; 
+    width: 15vw;
+    height: 30rem;
+    filter: blur(1px);       
+    opacity: 0.8; 
+ }
+.left3  { 
+    margin-left: -8vw; 
+    z-index: 8;
+    width: 20vw;
+    height: 32rem;
+    filter: blur(1px);       
+    opacity: 0.8; 
+
+ }
+.top   
+ { margin-left: -8vw; z-index: 10; 
+      width: 25vw;
+        height: 35rem;
+}
+.right1 { margin-left: -8vw; z-index: 8;
+    width: 20vw;
+      height: 32rem;
+      filter: blur(1px);       
+    opacity: 0.8; 
+ }
+.right2 { margin-left: -8vw; z-index: 4; 
+ width: 15vw;
+  height: 30rem;
+  filter: blur(1px);       
+    opacity: 0.8; 
+}
+.right3 { 
+    margin-left: 0vw; z-index: 1; 
+     width: 15vw;
+  height: 28rem;
+  filter: blur(1px);       
+    opacity: 0.8; 
 }

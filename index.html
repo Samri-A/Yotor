@@ -1,63 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Yotor</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container">
-        <div class="header">
-            <div class="logo"> <img src="./assets/image/white_bg_logo.jpg" alt="yotor logo" class="logo-image"></div>
-            <div class="nav">
-                <button type="button" class="nav-button">Home</button>
-                <button type="button" class="nav-button">Courses</button>
-                <button type="button" class="nav-button">Contests </button>
-                <button type="button" class="nav-button">Jobs</button>
-                <button type="button" class="nav-button">Community</button>
-                <button type="button"class="nav-button">Jobs</button>
-            </div>
-            <div class="login-button-box">
-                <button type="button" class="btn login-button">Login</button>
-            </div>
+      <div class="header">
+        <div class="logo">
+          <img
+            src="./assets/image/white_bg_logo.jpg"
+            alt="yotor logo"
+            class="logo-image"
+          />
         </div>
-        <div class="home">
-            <div class="intro">
-                <p class="title">Shape Your Future</p>
-                <p class="des">Start learning courses tailored to your 
-                    interests, participate in contests and 
-                    competitions, and pave the way to your 
-                    dream job by showcasing your unique profile.</p>
-                <button type="button" class="btn signup-button">Get Started</button>
+        <div class="nav">
+          <button type="button" class="nav-button">Home</button>
+          <button type="button" class="nav-button">Courses</button>
+          <button type="button" class="nav-button">Contests</button>
+          <button type="button" class="nav-button">Jobs</button>
+          <button type="button" class="nav-button">Community</button>
+          <button type="button" class="nav-button">Jobs</button>
+        </div>
+        <div class="login-button-box">
+          <button type="button" class="btn login-button">Login</button>
+        </div>
+      </div>
+      <div class="home">
+        <div class="intro">
+          <p class="title">Shape Your Future</p>
+          <p class="des">
+            Start learning courses tailored to your interests, participate in
+            contests and competitions, and pave the way to your dream job by
+            showcasing your unique profile.
+          </p>
+          <button type="button" class="btn signup-button">Get Started</button>
+        </div>
+        <div class="learning">
+          <!-- <div class="layer first-layer triangle"></div> -->
+          <!-- <div class="layer second-layer triangle"></div> -->
+          <div>
+            <img
+              src="./assets/image/child_reading_image.png"
+              alt="a person learning"
+              srcset=""
+              class="child-image"
+            />
+          </div>
+          <!-- <div class="layer  right-layer"></div> -->
+        </div>
+      </div>
 
+      <div class="courses">
+        <button class="all_course_btn">See all courses</button>
+        <div class="course_cards">
+          <div class="course_card left left1"></div>
+
+          <div class="course_card left left2"></div>
+          <div class="course_card left left3">
+            <div class="course_stat">
+              <div class="enrolled_courses">
+                <p class="enrolled_students"> 2034 students</p>
+              </div>
+
+              <div class="rating"></div>
             </div>
-            <div class="learning">
-                <!-- <div class="layer first-layer triangle"></div> -->
-                <!-- <div class="layer second-layer triangle"></div> -->
-                <div>
-                    <img src="./assets/image/child_reading_image.png" alt="a person learning" srcset=""  class="child-image">
-                </div>
-                <!-- <div class="layer  right-layer"></div> -->
+            <div class="course_top">
+              <div class="circle_course_dec"></div>
+              <div class="courses_img">
+                <!-- <img
+                  src="assets/image/course_img/networking.png"
+                  alt=""
+                  srcset=""
+                  class="course_img"
+                /> -->
+              </div>
             </div>
+
+            <div class="course_detail">
+              <p class="course_title">Graphics Designing</p>
+              <p class="course_description">
+                Understand the 
+                basics of graphics
+                design Concepts
+              </p>
+            </div>
+            <div class="enroll">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <p class="enroll_text">Enroll -></p>
+              </a>
+            </div>
+          </div>
+          <div class="course_card top">
+            <div class="course_stat">
+              <div class="enrolled_courses">
+                <p class="enrolled_students">2034 students</p>
+              </div>
+
+              <div class="rating"></div>
+            </div>
+            <div class="course_top">
+              <div class="circle_course_dec"></div>
+              <div class="courses_img">
+                <img
+                  src="assets/image/course_img/networking.png"
+                  alt=""
+                  srcset=""
+                  class="course_img"
+                />
+              </div>
+            </div>
+
+            <div class="course_detail">
+              <p class="course_title">Networking Essentials</p>
+
+              <p class="course_description">
+                Understand networking concepts such as protocols, IP addressing,
+                and network security to build and manage reliable systems
+              </p>
+            </div>
+            <div class="enroll">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <p class="enroll_text">Enroll -></p>
+              </a>
+            </div>
+          </div>
+          <div class="course_card right right1">
+            <div class="course_stat">
+              <div class="enrolled_courses">
+                <h4 class="enrolled_students">2034 students</h4>
+              </div>
+
+              <div class="rating"></div>
+            </div>
+            <div class="course_top">
+              <div class="circle_course_dec"></div>
+              <div class="courses_img">
+                <!-- <img
+                  src="assets/image/course_img/networking.png"
+                  alt=""
+                  srcset=""
+                  class="course_img"
+                /> -->
+              </div>
+            </div>
+
+            <div class="course_detail">
+              <p class="course_title">Graphics Designing</p>
+
+              <p class="course_description">
+                Understand the 
+                basics of graphics
+                design Concepts
+              </p>
+            </div>
+            <div class="enroll">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                <p class="enroll_text">Enroll -></p>
+              </a>
+            </div>
+          </div>
+          <div class="course_card right right2"></div>
+          <div class="course_card right right3"></div>
         </div>
-        <div class="partner">
-            <div class="partners">
-                <img src="assets/image/a2sv.png" alt="" srcset="" class = 'partner-logo'>
-                <img src="assets/image/alx.png" alt="" srcset="" class = 'partner-logo'>
-                <img src="assets/image/ethiojobs.png" alt="" srcset="" class = 'partner-logo'>
-               
-            </div>
-            <div class="partners">
-                 <img src="assets/image/ashewa.png" alt="" srcset="" class = 'partner-logo'>
-                <img src="assets/image/afriwork.png" alt="" srcset="" class = 'partner-logo'>
-                <img src="assets/image/sand.png" alt="" srcset="" class = 'partner-logo'>
-            </div>
+      </div>
+
+      <div class="partner">
+        <div class="partners">
+          <img
+            src="assets/image/a2sv.png"
+            alt=""
+            srcset=""
+            class="partner-logo"
+          />
+          <img
+            src="assets/image/alx.png"
+            alt=""
+            srcset=""
+            class="partner-logo"
+          />
+          <img
+            src="assets/image/ethiojobs.png"
+            alt=""
+            srcset=""
+            class="partner-logo"
+          />
         </div>
+        <div class="partners">
+          <img
+            src="assets/image/ashewa.png"
+            alt=""
+            srcset=""
+            class="partner-logo"
+          />
+          <img
+            src="assets/image/afriwork.png"
+            alt=""
+            srcset=""
+            class="partner-logo"
+          />
+          <img
+            src="assets/image/sand.png"
+            alt=""
+            srcset=""
+            class="partner-logo"
+          />
+        </div>
+      </div>
+
+      <div class="Contests">
         
+      </div>
     </div>
-</body>
+  </body>
 </html>
