@@ -347,3 +347,86 @@ a{
   filter: blur(1px);       
     opacity: 0.8; 
 }
+
+.blue_login_3{
+    width: 20vw;
+    height: 40rem;
+}
+
+.container_login{
+    display: flex;
+    flex-direction: row;
+    
+}
+.login_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    width: 40vw;
+    margin-top: 5rem;
+}
+
+.blue_login_2{
+    width: 5rem;
+    height: 10rem;
+}
+
+.blue_login_1{
+    width: 7rem;
+    height: 12rem;
+    margin-top: auto;
+    
+}
+.blue_login_0{
+    width: 10rem;
+    height: 15rem;
+    margin: auto;
+}
+label{
+    color: white;
+}
+input{
+    height: 1.7rem;
+    border-radius: 0.5rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 30vw;
+}
+
+.submit_login{
+    all: unset;
+    color: #ffffff;
+    background: linear-gradient(360deg, #001488 0%, #BAC0DF 99.99%);
+    height: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+.long_design_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40vw;
+}
+
+.title_1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 0;
+
+}
+
+.desc_small{
+    font-family: Poppins; 
+    font-weight: 400; 
+    color: grey;
+}
