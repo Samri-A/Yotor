@@ -386,6 +386,7 @@ a{
 }
 label{
     color: white;
+    font-family: Poppins;
 }
 input{
     height: 1.7rem;
@@ -429,4 +430,102 @@ input{
     font-family: Poppins; 
     font-weight: 400; 
     color: grey;
+}
+
+.catagory{
+    color: rgba(100, 188, 244, 1);
+    font-family: Poppins;
+    font-size: 2rem;
+    font-weight: 400;
+    
+
+}
+
+.container_course{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course_catalog{
+    width: 27vw;
+    background: rgba(0, 7, 43, 1);
+    height: 24vw;
+    border-radius: 1.5rem;
+    
+}
+
+.star_r{
+    width: 1.5rem;
+}
+
+.course_title_1{
+    color: white;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.tutor_des{
+    display: flex;
+    flex-direction: row;
+}
+
+.verfied_icon{
+    width: 1rem;
+    height: 1rem;
+    margin: auto;
+}
+.course_title_top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.course_icon{
+    width:  2rem;
+    height: 3rem;
+}
+
+.rate{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.see_all{
+    all: unset;
+    background: rgba(100, 188, 244, 0.2);
+    color:  rgba(100, 188, 244, 1);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 3rem;
+    width: 12rem;
+    text-align: center;
+    border-radius: 1rem;
+}
+.tutor_name , .course_title , .price{
+    font-family: Poppins;
+    font-weight: 400;  
+}
+.price{
+    font-size: 1.2rem;   
+}
+.grey_texts{
+    color:  rgba(255, 255, 255, 0.7);
+
+}
+
+.course_grid{
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: auto ;
 }
