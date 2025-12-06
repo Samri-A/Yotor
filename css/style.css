@@ -460,6 +460,7 @@ input{
     background: rgba(0, 7, 43, 1);
     height: 24vw;
     border-radius: 1.5rem;
+    cursor: pointer;
     
 }
 
@@ -531,4 +532,16 @@ input{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+}
+.side_bar{
+    width: 20vw;
+}
+.course_video{
+    width: 65vw;
+}
+.learn_container{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
