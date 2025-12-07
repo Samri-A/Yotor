@@ -15,6 +15,8 @@ background-color: #000522;
 }
 h2 , h3 , p {
     color: #ffffff;
+    font-family:Poppins ;
+
 }
 .container{
     
@@ -586,4 +588,40 @@ input{
 
 #module1{
     background-color: rgba(134, 138, 160, 0.7);
+}
+.student_name{
+    color: #56AB2F;
+
+}
+.s1{
+    color:  #2C6994;;
+}
+.s2 {
+    color: #0226F8;
+}
+.dashboard_text{
+    color: linear-gradient(180deg,  0%,  100%);
+    font-size: 2rem;
+
+}
+.dashboard_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 5rem;
+}
+
+.dashboard_welcome{
+    width: 20vw;
+}
+.learning_courses{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem;
+}
+.dashboard_course{
+    width: 25vw;
 }
