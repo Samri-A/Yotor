@@ -1,0 +1,174 @@
+@media (max-width: 768px) {
+
+  * {
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .header {
+    flex-direction: column;
+    padding: 12px 16px;
+    height: auto;
+    align-items: center;
+  }
+
+  .logo {
+    margin-bottom: 10px;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .nav-button {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .login-button-box {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .login-button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .dashboard_container {
+    padding: 10px;
+  }
+
+  .dashboard_head {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .dashboard_text {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
+
+  .course_img {
+    width: 85px;
+    margin: 10px auto;
+  }
+
+  
+  .learning_courses {
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 10px;
+  }
+
+  .dashboard_course {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .learn_container {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .side_bar {
+    width: 100%;
+    height: auto;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    border-radius: 10px;
+  }
+
+  .module {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+  }
+
+  .video_side {
+    width: 100%;
+    padding: 16px 0;
+    text-align: center;
+  }
+
+  .course_video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .container_login {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .login_box {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .long_design_box {
+    display: none; 
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 18px 0;
+    gap: 8px;
+  }
+
+  .social_media {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .dashboard_text {
+    font-size: 1.1rem;
+  }
+
+  .student_name {
+    font-size: 1.3rem;
+  }
+
+  .nav-button {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .module {
+    padding: 10px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+
+  .form label,
+  .form input,
+  .submit_login {
+    font-size: 0.9rem;
+  }
+
+  .s_icons i {
+    font-size: 15px;
+  }
+}
