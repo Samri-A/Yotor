@@ -383,6 +383,7 @@ label {
 input {
   height: 1.7rem;
   border-radius: 0.5rem;
+   text-align: center; 
 }
 
 .form {
@@ -682,4 +683,14 @@ a {
 
 .about_small_text {
   color: gray;
+}
+.abt_kid_image{
+  border-radius: 5px;
+  height: 50%;
+  width: 80%;
+}
+
+input::placeholder {
+  color: gray;     
+  font-size: 14px;    
 }
