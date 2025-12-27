@@ -203,36 +203,3 @@
     justify-content: center;
   }
 }
-
-@media (max-width: 480px) {
-  .dashboard_text {
-    font-size: 1.1rem;
-  }
-
-  .student_name {
-    font-size: 1.3rem;
-  }
-
-  .nav-button {
-    padding: 8px;
-    font-size: 14px;
-  }
-
-  .module {
-    padding: 10px;
-  }
-
-  .title {
-    font-size: 1rem;
-  }
-
-  .form label,
-  .form input,
-  .submit_login {
-    font-size: 0.9rem;
-  }
-
-  .s_icons i {
-    font-size: 15px;
-  }
-}
