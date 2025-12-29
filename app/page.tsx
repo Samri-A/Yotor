@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 export default function Home() {
   return (
     <>
@@ -7,7 +7,7 @@ export default function Home() {
       <div className="header">
         <div className="logo">
           <img
-            src="./assets/image/logo_blue.png"
+            src="/assets/image/logo_blue.png"
             alt="yotor logo"
             className="logo-image"
           />
@@ -23,7 +23,9 @@ export default function Home() {
             type="button"
             className="nav-button"
           >
-            About
+            <Link href='about'>About</Link>
+
+            
           </button>
           <button
             type="button"
@@ -41,7 +43,7 @@ export default function Home() {
               type="button"
               className="btn login-button"
             >
-              <a href="./login.html"></a>Login
+             <Link href={'/login'}>Login</Link> 
             </button>
           </div>
           <div className="menu-icon" >
@@ -67,7 +69,7 @@ export default function Home() {
         <div className="learning">
           <div>
             <img
-              src="./assets/image/child_reading_image.png"
+              src="/assets/image/child_reading_image.png"
               alt="a person learning"
               className="child-image"
             />
@@ -125,7 +127,7 @@ export default function Home() {
               <div className="circle_course_dec"></div>
               <div className="courses_img">
                 <img
-                  src="assets/image/course_img/networking.png"
+                  src="/assets/image/course_img/networking.png"
                   alt=""
                   className="course_img"
                 />
@@ -189,34 +191,34 @@ export default function Home() {
       <div className="partner">
         <div className="partners">
           <img
-            src="assets/image/a2sv.png"
+            src="/assets/image/a2sv.png"
             alt=""
             className="partner-logo"
           />
           <img
-            src="assets/image/alx.png"
+            src="/assets/image/alx.png"
             alt=""
             className="partner-logo"
           />
           <img
-            src="assets/image/ethiojobs.png"
+            src="/assets/image/ethiojobs.png"
             alt=""
             className="partner-logo"
           />
         </div>
         <div className="partners">
           <img
-            src="assets/image/ashewa.png"
+            src="/assets/image/ashewa.png"
             alt=""
             className="partner-logo"
           />
           <img
-            src="assets/image/afriwork.png"
+            src="/assets/image/afriwork.png"
             alt=""
             className="partner-logo"
           />
           <img
-            src="assets/image/sand.png"
+            src="/assets/image/sand.png"
             alt=""
             className="partner-logo"
           />
